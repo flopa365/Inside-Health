@@ -1,4 +1,4 @@
-baseURL = "http://groups.tecnico.ulisboa.pt/insidehealth/"
+baseURL = "http://inside-health.netlify.app"
 canonifyURLs = true
 relativeURLs = false
 languageCode = "en"

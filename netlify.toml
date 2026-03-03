@@ -1,2 +1,7 @@
-[context.production.environment]
-  HUGO_VERSION = "0.85.0"
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.123.0" # Ou a versão que tens no PC
+  HUGO_ENABLEGITINFO = "true"

@@ -36,3 +36,14 @@ article:first-of-type {
 article:first-of-type {
     margin-top: -130px !important;
 }
+
+/* Quando passamos o rato no contentor, a camada escura aparece */
+.project-card:hover .project-overlay {
+    opacity: 1 !important;
+}
+
+/* Efeito opcional: a imagem aumenta ligeiramente */
+.project-card:hover img {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}

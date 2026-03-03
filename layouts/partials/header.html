@@ -1,0 +1,51 @@
+<style>
+  /* Remove o bloco branco sólido que aparece na imagem */
+  .navbar, 
+  .navbar-custom, 
+  .nav-container,
+  header.header-section {
+    background: transparent !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    position: absolute !important;
+    width: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 1001 !important;
+  }
+
+  /* Faz com que a imagem do carrossel suba até ao topo real do ecrã */
+  body, #wrapper, .main-content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  /* Torna os links brancos para não "sumirem" no fundo escuro */
+  .navbar-nav .nav-link, 
+  .navbar-brand, 
+  .nav-item a {
+    color: white !important;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.8) !important;
+    background: transparent !important;
+  }
+
+/* Remove o círculo, a borda e qualquer fundo do botão de busca */
+  .nav-search, 
+  .search-toggle, 
+  .search-wrapper, 
+  #search-input-wrap,
+  [class*="search"] { 
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    border: none !important;
+    outline: none !important;
+  }
+
+  /* Se o círculo for um link vazio que ficou para trás */
+  a[href*="search"], a[onclick*="search"] {
+    display: none !important;
+  }
+</style>

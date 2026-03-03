@@ -1,0 +1,14 @@
+<div style="background: white; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); border: 1px solid #eee; padding: 25px; display: flex; flex-direction: column; height: 100%; transition: transform 0.2s;">
+    <h3 style="font-weight: bold; color: #2c3e50; margin-bottom: 10px; font-size: 1.4em;">
+        {{ .Title }}
+    </h3>
+    <p style="font-size: 0.85em; color: #95a5a6; margin-bottom: 15px;">
+        {{ .Date.Format "02 January 2006" }}
+    </p>
+    <p style="font-size: 0.95em; color: #555; line-height: 1.6; flex-grow: 1;">
+        {{ .Summary | truncate 120 }}
+    </p>
+    <a href="{{ .Permalink }}" style="color: #333; font-weight: bold; text-decoration: none; font-size: 0.9em; margin-top: 15px;">
+        Read more →
+    </a>
+</div>

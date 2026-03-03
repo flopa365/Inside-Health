@@ -1,0 +1,6 @@
+[submodule "themes/port-hugo"]
+	path = themes/port-hugo
+	url = https://github.com/tylersayshi/port-hugo.git
+[submodule "themes/lightbi-hugo"]
+	path = themes/lightbi-hugo
+	url = https://github.com/binokochumolvarghese/lightbi-hugo.git

@@ -1,0 +1,16 @@
+<section style="padding: 50px 0; background-color: #f9f9f9;">
+<div class="container">
+    <h2 style="text-align: left; margin-bottom: 30px; font-weight: bold; font-size: 2em;">A Nossa Equipa</h2>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; padding: 20px; max-width: 1200px; margin: auto;">
+        
+        {{ range (where .Site.RegularPages "Section" "equipa") }}
+        <div style="background: white; padding: 20px; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); text-align: center; transition: 0.3s;">
+            <img src="{{ .Params.image }}" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin-bottom: 15px; border: 3px solid #007bff;">
+            <h3 style="margin: 10px 0 5px 0;">{{ .Title }}</h3>
+            <p style="color: #007bff; font-weight: bold; font-size: 0.9em; margin-bottom: 15px;">{{ .Params.description }}</p>
+            <a href="{{ .Permalink }}" style="background: #007bff; color: white; padding: 8px 15px; border-radius: 5px; text-decoration: none; font-size: 0.8em;">Ver Perfil & Timeline</a>
+        </div>
+        {{ end }}
+
+    </div>
+</section>

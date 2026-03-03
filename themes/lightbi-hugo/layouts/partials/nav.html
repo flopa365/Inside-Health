@@ -45,28 +45,20 @@
               {{ end }}
               {{ end }}
 
-
-            <!-- Language Switcher -->    
-            {{ if hugo.IsMultilingual }}
-              {{ with .AllTranslations }}
-              <li class="nav-item dropdown">
-                <button class="d-flex align-items-center gap-1 p-1 border-0 bg-white" data-bs-toggle="dropdown" aria-expanded="false">
-                  {{ $.Language.Lang }}
-                  <i class="bi bi-chevron-down small chevron-icon"></i>
-                </button>
-              
-                <ul class="dropdown-menu">
-                  {{ range . }}
-                    {{ if eq .Language.Lang $.Language.Lang }}
-                      <li><a class="dropdown-item active" aria-current="page" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
-                    {{ else }}
-                      <li><a class="dropdown-item" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
-                    {{ end }}
-                  {{ end }}
-                </ul>
-              </li>
-              {{ end }}
-            {{ end }}
+            <!-- Language Switcher -->   
+            {{ if .IsTranslated }}
+  <li class="nav-item dropdown">
+    <button class="d-flex align-items-center gap-1 p-1 border-0 bg-white" data-bs-toggle="dropdown" aria-expanded="false">
+      {{ .Language.Lang }}
+      <i class="bi bi-chevron-down small chevron-icon"></i>
+    </button>
+    <ul class="dropdown-menu">
+      {{ range .AllTranslations }}
+        <li><a class="dropdown-item" href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+      {{ end }}
+    </ul>
+  </li>
+{{ end }}
 
             <!-- Theme switcher -->
               <li class="nav-item nav-link">

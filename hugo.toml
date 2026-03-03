@@ -1,6 +1,4 @@
 baseURL = "http://inside-health.netlify.app"
-canonifyURLs = true
-relativeURLs = false
 languageCode = "en"
 title = "Inside Health"
 theme = "lightbi-hugo"

@@ -83,6 +83,11 @@ pagerSize = 9
   priority = 0.5
   filename = "sitemap.xml"
 
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
 
 [[menu.main]]
     name = "Project"

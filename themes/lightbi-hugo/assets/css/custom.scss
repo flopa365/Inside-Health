@@ -1,0 +1,38 @@
+/* 1. O espaço base para o conteúdo não ficar por baixo da barra */
+main, .main, #content {
+    padding-top: 100px !important;
+}
+
+/* 2. O que funcionava para as NOTES (ajustado para ser seguro) */
+.post-entry:first-child, 
+.note-card:first-child {
+    margin-top: 60px !important;
+}
+
+/* 3. O que falta para os ESSAYS */
+/* Como não sabemos o nome exato, vamos usar "article" que é o padrão do Hugo */
+article:first-of-type,
+.essay-card:first-child,
+.type-essays:first-child {
+    margin-top: 60px !important;
+}
+
+/* 2. Aplica o espaço apenas ao PRIMEIRO cartão de cada página */
+/* Isto vai funcionar tanto nas Notes como nos Essays porque ambos usam .card-body */
+.card-body:first-of-type, 
+.card:first-of-type,
+article:first-of-type {
+    margin-top: 60px !important;
+}
+
+/* 3. Ajuste extra: se os cartões estiverem colados lateralmente */
+.card-body {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.blog-post:first-of-type, 
+.blog:first-of-type,
+article:first-of-type {
+    margin-top: -130px !important;
+}

@@ -1,0 +1,54 @@
+{{ define "main" }}
+
+{{ partial "intro.html" . }}
+
+<div class="container">
+    
+    {{ partial "sobre-projeto.html" . }}
+
+    <hr>
+
+    <div id="videos-essays" style="padding: 50px 0;">
+    <div style="margin-bottom: 30px;">
+        <h2 style="font-size: 2em; font-weight: bold; margin-bottom: 30px; color: #333;">Blog</h2>
+        <p style="color: #666; font-size: 1.1em;">A weekly update on the progress of Inside Health.</p>
+    </div>
+
+    <div class="row">
+        {{ range (where .Site.RegularPages "Section" "essays") | first 3 }}
+            <div class="col-md-4 mb-4">
+                {{ partial "card-essay.html" . }}
+            </div>
+        {{ end }}
+    </div>
+    
+    <a href="/essays/" style="color: #333; text-decoration: none; font-weight: 500; display: inline-block; margin-top: 10px;">Browse all →</a>
+</div>
+        
+       <div id="notes-section" style="padding: 40px 0;">
+        <div style="margin-bottom: 30px;">
+            <h2 style="font-size: 2.2em; font-weight: bold; color: #333;">Notes</h2>
+            <p style="color: #666;">Personal notes and reflections.</p>
+        </div>
+        <div class="row">
+            {{ range (where .Site.RegularPages "Section" "notes") | first 3 }}
+                <div class="col-md-4 mb-4">
+                    {{ partial "card-note.html" . }}
+                </div>
+            {{ end }}
+        </div>
+    </div>
+    
+    <a href="/notes/" style="color: #333; text-decoration: none; font-weight: 500;">Browse all →</a>
+</div>
+    </div>
+
+    <hr>
+
+    <div id="seccao-equipa" style="padding: 60px 0; background-color: #fff;">
+    {{ partial "equipa.html" . }}
+</div>
+
+</div>
+
+{{ end }}

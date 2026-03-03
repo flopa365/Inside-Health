@@ -1,0 +1,96 @@
+<div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+
+<style>
+  .carousel-control-prev, .carousel-control-next {
+    width: 5%; /* Para não tapar muito o conteúdo */
+    transition: opacity 0.3s ease;
+  }
+  .carousel-control-prev:hover, .carousel-control-next:hover {
+    opacity: 0.8 !important; /* Fica mais visível ao passar o rato */
+  }
+</style>
+
+<style>
+  /* Remove o fundo de TODAS as camadas da barra de navegação */
+  .navbar, 
+  .navbar-custom, 
+  #main-nav, 
+  header, 
+  .main-header {
+    background: transparent !important;
+    background-color: transparent !important;
+    background-image: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000 !important;
+  }
+
+  /* Remove margens que empurram o carrossel para baixo */
+  body, #wrapper, #content {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  /* Garante que o texto dos menus é branco para contrastar com a imagem */
+  .navbar-nav .nav-link, 
+  .navbar-brand, 
+  .nav-item a,
+  #main-nav a {
+    color: white !important;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.8) !important;
+  }
+
+  /* Ajusta o ícone de pesquisa e outros botões da barra */
+  .navbar-custom .nav-link i, 
+  .search-icon {
+    color: white !important;
+  }
+</style>
+
+    <div class="carousel-item active" style="height: 100vh; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1600&q=80') no-repeat center center; background-size: cover;">
+      <div class="container h-100 d-flex align-items-center">
+        <div class="text-white">
+          <h1 style="font-size: 4.5em; font-weight: 800;">Integrated <span style="color: #007bff;">Tele-Geriatric Health</span> <span style="color: #ffffff;">Monitoring Hub</span></h1>
+          <p style="font-size: 1.5em; max-width: 650px; border-left: 4px solid #007bff; padding-left: 15px;">Driving development and innovation in healthcare.</p>
+          <a href="#sobre-nos" class="btn btn-primary" style="padding: 15px 40px; border-radius: 50px; font-weight: bold; margin-top: 20px;">👋 Our Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item" style="height: 100vh; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1600&q=80') no-repeat center center; background-size: cover;">
+      <div class="container h-100 d-flex align-items-center">
+        <div class="text-white">
+          <h1 style="font-size: 4.5em; font-weight: 800;">Follow the <span style="color: #007bff;">Development</span></h1>
+          <p style="font-size: 1.5em; max-width: 650px; border-left: 4px solid #007bff; padding-left: 15px;">Stay updated on our continuous advancements and project milestones.</p>
+          <a href="#videos-essays" class="btn btn-primary" style="padding: 15px 40px; border-radius: 50px; font-weight: bold; margin-top: 20px;">🎬 View Progress</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item" style="height: 100vh; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80') no-repeat center center; background-size: cover;">
+      <div class="container h-100 d-flex align-items-center">
+        <div class="text-white">
+          <h1 style="font-size: 4.5em; font-weight: 800;">Meet the </thead> <span style="color: #007bff;">Team</span></h1>
+          <p style="font-size: 1.5em; max-width: 650px; border-left: 4px solid #007bff; padding-left: 15px;">The dedicated group of students working together to make our vision a reality.</p>
+          <a href="#seccao-equipa" class="btn btn-primary" style="padding: 15px 40px; border-radius: 50px; font-weight: bold; margin-top: 20px;">👥 Our Team</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+<button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" style="opacity: 0.3;">
+  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Previous</span>
+</button>
+
+<button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next" style="opacity: 0.3;">
+  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+  <span class="visually-hidden">Next</span>
+</button>
+
+</div>

@@ -1,4 +1,6 @@
-baseURL = "https://inside-health.netlify.app/"
+baseURL = "http://groups.tecnico.ulisboa.pt/insidehealth/"
+canonifyURLs = true
+relativeURLs = false
 languageCode = "en"
 title = "Inside Health"
 theme = "lightbi-hugo"

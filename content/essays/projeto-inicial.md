@@ -8,8 +8,6 @@ image: "/images/entrevista1.jpeg"
 
 subtitle: "Interview with Dr. Inês Carvalho"
 
-video: "/videos/Entrevista_1.mp4"
-
 draft: false
 
 ---

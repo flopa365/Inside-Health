@@ -69,7 +69,7 @@ My name is Luís Miguel Miranda de Carvalho, I am 21 years old and currently a t
   </div>
 
   <div class="tarefa">
-    <div class="data-estado">Contact Partners</div>
+    <div class="data-estado">Interview with Dr. Inês Carvalho</div>
     <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">07 mar 2026</div>
     <div class="descricao">Video interview with Dr. Inês Carvalho.</div>
   </div>

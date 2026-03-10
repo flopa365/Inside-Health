@@ -2,9 +2,13 @@
 
 title: "Week 1"
 
-date: 2026-03-02
+date: 2026-03-10
 
-image: "/images/comingsoon.jpg"
+image: "/images/entrevista_1.jpeg"
+
+subtitle: "Interview with Dr. Inês Carvalho"
+
+video: "/videos/Entrevista_1.mp4"
 
 draft: false
 

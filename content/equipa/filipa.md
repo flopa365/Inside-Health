@@ -19,9 +19,7 @@ image: "/images/pipa1.jpg"
   📱 +351 924 345 965
 </p>
 
-
-Description...
-
+My name is Filipa Dias, and I am a third-year Electrical and Computer Engineering student at Instituto Superior Técnico. I am a highly dedicated and hardworking individual, driven by a strong commitment to academic excellence and professional growth. Throughout my journey, I have developed leadership and teamwork skills, valuing the collective strength of collaborative environments to achieve ambitious goals. As a proactive learner, I am constantly seeking new challenges that allow me to expand my knowledge and apply a creative, forward-thinking approach to engineering. I am determined to contribute my effort and technical skills to projects that demand both discipline and a passion for continuous improvement.
 
 <div style="clear: both;"></div>
 

@@ -74,6 +74,12 @@ My name is Luís Miguel Miranda de Carvalho, I am 21 years old and currently a t
     <div class="descricao">Video interview with Dr. Inês Carvalho.</div>
   </div>
 
+  <div class="tarefa">
+    <div class="data-estado">Development of the ElectroCap Prototype Requirements List</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">10 mar 2026 - 17 mar 2026</div>
+    <div class="descricao">Identifying hardware components, like sensors, and defining the technical requirements needed to build the prototype.</div>
+  </div>
+
 </div>
 
 

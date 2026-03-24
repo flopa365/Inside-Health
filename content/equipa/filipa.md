@@ -68,6 +68,12 @@ My name is Filipa Dias, and I am a third-year Electrical and Computer Engineerin
     <div class="descricao">Configuration of the website architecture, including theme configuration and initial deployment tests.</div>
   </div>
 
+  <div class="tarefa">
+    <div class="data-estado">Development of the ElectroCap Prototype Requirements List</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">11 mar 2026 - 17 mar 2026</div>
+    <div class="descricao">Identifying hardware components, like sensors, and defining the technical requirements needed to build the prototype.</div>
+  </div>
+
 </div>
 
 

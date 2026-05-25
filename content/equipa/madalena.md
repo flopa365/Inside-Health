@@ -65,7 +65,7 @@ I am a proactive and curious person who enjoys exploring new ideas and continuou
 
   <div class="tarefa">
     <div class="data-estado">Contact Partners</div>
-    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">26 feb 2026 - now</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">26 feb 2026 - 09 mar 2026</div>
     <div class="descricao">Initiating strategic outreach to prospective partners, aiming to align objectives and formalize collaborative agreements.</div>
   </div>
 
@@ -73,6 +73,42 @@ I am a proactive and curious person who enjoys exploring new ideas and continuou
     <div class="data-estado">Development of the ElectroCap Prototype Requirements List</div>
     <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">10 mar 2026 - 17 mar 2026</div>
     <div class="descricao">Identifying hardware components, like sensors, and defining the technical requirements needed to build the prototype.</div>
+  </div>
+
+  <div class="tarefa">
+    <div class="data-estado">Midterm Project Presentation Development</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">25 mar 2026 - 07 apr 2026</div>
+    <div class="descricao">Improve the project proposal considering the new objectives and guidelines.</div>
+  </div>
+
+  <div class="tarefa">
+    <div class="data-estado">Clinical Interface Development</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">08 apr 2026 - 19 apr 2026</div>
+    <div class="descricao">Configuration of the clinical interface architecture, including theme configuration and initial deployment tests.</div>
+  </div>
+
+  <div class="tarefa">
+    <div class="data-estado">Heart Rate Implementation</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">20 apr 2026 - 03 may 2026</div>
+    <div class="descricao">Physical implementation of Heart Rate on our prototype.</div>
+  </div>
+
+  <div class="tarefa">
+    <div class="data-estado">Heart Sound Implementation</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">04 may 2026 - 10 may 2026</div>
+    <div class="descricao">Physical implementation of Heart Sound on our prototype.</div>
+  </div>
+
+  <div class="tarefa">
+    <div class="data-estado">Contact Partners</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">11 may 2026 - now</div>
+    <div class="descricao">Strategic outreach to prospective partners, aiming to establish a partnership with Hospital of Portalegre.</div>
+  </div>
+
+  <div class="tarefa">
+    <div class="data-estado">Development of the ElectroCap Materials</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">11 may 2026 - now</div>
+    <div class="descricao">Preparing video for Elerocap.</div>
   </div>
 
 </div>

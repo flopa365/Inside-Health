@@ -106,7 +106,7 @@ My name is Filipa Dias, and I am a third-year Electrical and Computer Engineerin
 
   <div class="tarefa">
     <div class="data-estado">Development of the ElectroCap Materials</div>
-    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">11 may 2026 - now</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">11 may 2026 - 09 jun 2026</div>
     <div class="descricao">Preparing poster for Elerocap.</div>
   </div>
 

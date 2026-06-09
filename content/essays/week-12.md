@@ -4,7 +4,7 @@ title: "Week 13 - 14"
 
 date: 2026-05-25
 
-image: "/images/comingsoon.JPG"
+image: "/images/week13.png"
 
 subtitle: "Improvement of Previous Implementations"
 

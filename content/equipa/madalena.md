@@ -101,14 +101,20 @@ I am a proactive and curious person who enjoys exploring new ideas and continuou
 
   <div class="tarefa">
     <div class="data-estado">Contact Partners</div>
-    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">11 may 2026 - now</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">11 may 2026 - 31 may 2026</div>
     <div class="descricao">Strategic outreach to prospective partners, aiming to establish a partnership with Hospital of Portalegre.</div>
   </div>
 
   <div class="tarefa">
     <div class="data-estado">Development of the ElectroCap Materials</div>
-    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">11 may 2026 - now</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">11 may 2026 - 02 jun 2026</div>
     <div class="descricao">Preparing video for Elerocap.</div>
+  </div>
+
+  <div class="tarefa">
+    <div class="data-estado">Final Project Presentation Development</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">03 jun 2026 - 09 jun 2026</div>
+    <div class="descricao">Improve the project proposal considering the new objectives and guidelines.</div>
   </div>
 
 </div>

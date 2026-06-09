@@ -89,19 +89,19 @@ My name is Guilherme Dias Farinha, I am 20 years old and currently a third-year 
 
   <div class="tarefa">
     <div class="data-estado">Clinical Interface Development</div>
-    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">08 apr 2026 - now</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">08 apr 2026 - 31 may 2026</div>
     <div class="descricao">Configuration of the clinical interface architecture, including theme configuration and initial deployment tests.</div>
   </div>
 
   <div class="tarefa">
     <div class="data-estado">Heart Rate Implementation</div>
-    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">20 apr 2026 - now</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">20 apr 2026 - 31 may 2026</div>
     <div class="descricao">Physical implementation of Heart Rate on our prototype.</div>
   </div>
 
   <div class="tarefa">
     <div class="data-estado">Heart Sound Implementation</div>
-    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">04 may 2026 - now</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">04 may 2026 - 31 may 2026</div>
     <div class="descricao">Physical implementation of Heart Sound on our prototype.</div>
   </div>
 
@@ -109,6 +109,18 @@ My name is Guilherme Dias Farinha, I am 20 years old and currently a third-year 
     <div class="data-estado">Reunion with Partners</div>
     <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">22 may 2026</div>
     <div class="descricao">Reunion with Hospital of Portalegre to establishing a partnership.</div>
+  </div>
+
+  <div class="tarefa">
+    <div class="data-estado">Development of the ElectroCap Materials</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">01 jun 2026 - 03 jun 2026</div>
+    <div class="descricao">Preparing video for Elerocap.</div>
+  </div>
+
+  <div class="tarefa">
+    <div class="data-estado">Physical Testing</div>
+    <div class="duracao" style="font-size: 0.85em; color: #777777; font-style: italic; margin-top: 2px; margin-bottom: 8px;">04 jun 2026 - now</div>
+    <div class="descricao">Testing Inside Health on eldery people.</div>
   </div>
 
 </div>

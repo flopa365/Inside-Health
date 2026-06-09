@@ -34,7 +34,6 @@
               <li class="nav-item">
                 {{ $active := or ($current.IsMenuCurrent "main" .) ($current.HasMenuCurrent "main" .) }}
                 {{ $active = or $active (eq .Name $current.Title) }}
-                {{ $active = or $active (and (eq .Name "Notes") (eq $current.Section "notes")) }}
                 {{ $active = or $active (and (eq .Name "Tags") (eq $current.Section "tags")) }}
                 {{ $active = or $active (and (eq .Name "About") (eq $current.Section "about")) }}
 

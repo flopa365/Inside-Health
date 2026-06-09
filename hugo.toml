@@ -1,4 +1,4 @@
-baseURL = "http://inside-health.netlify.app"
+baseURL = "https://inside-health.netlify.app"
 languageCode = "en"
 title = "Inside Health"
 theme = "lightbi-hugo"

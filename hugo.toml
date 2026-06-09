@@ -91,7 +91,7 @@ pagerSize = 9
 
 [[menu.main]]
     name = "Project"
-    url = "/#project-card"
+    url = "/#project"
     weight = 1
 
 [[menu.main]]
